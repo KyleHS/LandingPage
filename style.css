@@ -16,6 +16,7 @@ body {
   font-style: normal;
 }
 
+/*Navbar*/
 ul {
   list-style-type: none;
 }
@@ -56,4 +57,49 @@ ul {
   text-decoration: none;
   font-size: 18px;
   color: #aeafb1;
+}
+
+/*Header*/
+.header {
+  background: #1F2937;
+  height: 480px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 18px;
+  color: #aeafb1;
+  margin-bottom: 10px;
+}
+
+.header .headcontent {
+  width: 30%;
+}
+
+.header .signbutton {
+  background: #3882f6;
+  color: #F9FAF8;
+  border-radius: 6px;
+  border-style: none;
+  text-decoration: none;
+
+  padding: 8px 20px;
+}
+
+.header img {
+  max-width: 70%;
+
 }
