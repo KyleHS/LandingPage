@@ -127,12 +127,16 @@ ul {
   width: 300px;
 }
 
+.boxes .box {
+  max-width: 25%;
+}
+
 .boxes .box img {
   width: 300px;
   height: 300px;
   object-fit: cover;
   border-style: solid;
-  border-color: #3882f6;
+  border-color: #000000;
   border-width: medium;
   border-radius: 30px;
   margin: auto;
@@ -177,4 +181,53 @@ ul {
   text-align: right;
   padding-bottom: 40px;
   
+}
+
+/*Signup Section*/
+
+.signup {
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+
+.signup .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  width: 30%;
+  background: #3882f6;
+  border-radius: 10px;
+}
+
+.signup .container h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.signup .container p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #F9FAF8;
+}
+
+.signup .container .box {
+  max-width: 100%;
+}
+
+.signup .container .box .signbutton2 {
+  background: #3882f6;
+  margin-left: 140px;
+  color: #F9FAF8;
+  border-radius: 6px;
+  border-color: #F9FAF8;
+  text-decoration: none;
+  padding: 8px 20px;
+}
+
+.signup .container .box .signbutton2:hover {
+  background: #5b97f8;
+  color: #F9FAF8;
 }
